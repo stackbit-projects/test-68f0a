@@ -25,7 +25,7 @@ export default class Header extends React.Component {
                                     <Picture {...this.props} image={_.get(site, 'data.config.logo_dark', null)} cssClass={'nav__logo-image'} alt={'Site logo'} />
                                 }
                             </Link>
-                            <div></div>
+                            <div>coucoucoucou</div>
                         </div>
                         <ul className="nav__menu">
                             {_.map(_.get(site, 'data.config.main_menu', null), (item, item_idx) => {
